@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "learplay_game",
+    "slug": "learplay_game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "entryPoint": "./index.js",
+    "jsEngine": "hermes",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "enableSourceMaps": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "enableSourceMaps": true
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "fonts": [
+      {
+        "asset": "./assets/fonts/Montserrat-Bold.ttf",
+        "family": "Montserrat-Bold"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-Regular.ttf",
+        "family": "Poppins-Regular"
+      }
+    ]
+  }
+}
